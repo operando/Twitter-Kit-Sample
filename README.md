@@ -50,6 +50,8 @@
 * じゃ`ComposerActivity` or `TweetUploadService`は何が面倒なのか
  * 実装はあまり難しくないけど`TwitterSession`が必要
  * 要は自身の開発者アカウントの認証を一度ユーザに求める必要がある
+ * こんな画面のやつ
+ * ![image](./arts/twitter_OAuth.png)
 * 実際に認証周りの実装がどんな感じなのかDocument読んでみる
  * [Log In with Twitter](https://docs.fabric.io/android/twitter/log-in-with-twitter.html)
  * 実装は簡単そうだ
