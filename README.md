@@ -27,14 +27,14 @@
 
 絶対この流れってわけでもないけど簡単そうな流れ
 
-1. `TwitterLoginButton`設置
-2. `TwitterLoginButton.Callback`の実装
-3. Tweetした結果を受け取るためのBroadcastReceiverを実装してManifestに追加
-4. ユーザがアプリケーションの認証をOKすると`TwitterSession`ゲット!! 
-5. 手順 4で取得した`TwitterSession`を`ComposerActivity.Builder`とかにセットしてIntent作成
-6. startActivity
-7. ユーザがTweetを完了する
-9. Tweetの結果が手順 4で追加したBroadcastReceiverに通知される
+1.  `TwitterLoginButton`設置
+2.  `TwitterLoginButton.Callback`の実装
+3.  Tweetした結果を受け取るためのBroadcastReceiverを実装してManifestに追加
+4.  ユーザがアプリケーションの認証をOKすると`TwitterSession`ゲット!! 
+5.  手順 4で取得した`TwitterSession`を`ComposerActivity.Builder`とかにセットしてIntent作成
+6.  startActivity
+7.  ユーザがTweetを完了する
+9.  Tweetの結果が手順 4で追加したBroadcastReceiverに通知される
 10. BroadcastReceiver内でTweetが正常に行われたかどうかチェックする
 
 #### 詳細な実装フロー
