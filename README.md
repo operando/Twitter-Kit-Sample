@@ -4,16 +4,16 @@
 
 * [Log In with Twitter](https://docs.fabric.io/android/twitter/log-in-with-twitter.html)
 * [Compose Tweets](https://docs.fabric.io/android/twitter/compose-tweets.html)
- 
+
 ## Source Code
 
-* [twitter/twitter-kit-android](twitter/twitter-kit-android)
+* [twitter/twitter-kit-android](https://github.com/twitter/twitter-kit-android/)
  * Twitter KitのSource Code
  * 内部でどんなことやってるのか調べる時に役に立つ
 * [twitter-kit-android/samples/app/build.gradle](https://github.com/twitter/twitter-kit-android/blob/master/samples/app/build.gradle)
  * セキュアな値の設定方法をどうするか参考になる
  * [twitter-kit-android/samples/app/fabric.properties.sample](https://github.com/twitter/twitter-kit-android/blob/master/samples/app/fabric.properties.sample)
- 
+
 ## Use Case
 
 ### Tweetが完了したことをハンドリングしたいよ！
@@ -30,7 +30,7 @@
 1. `TwitterLoginButton`設置
 2. `TwitterLoginButton.Callback`の実装
 3. Tweetした結果を受け取るためのBroadcastReceiverを実装してManifestに追加
-4. ユーザがアプリケーションの認証をOKすると`TwitterSession`ゲット!! 
+4. ユーザがアプリケーションの認証をOKすると`TwitterSession`ゲット!!
 5. 手順 4で取得した`TwitterSession`を`ComposerActivity.Builder`とかにセットしてIntent作成
 6. 手順 5で作成したIntentをstartActivity
 7. ユーザがTweetを完了する
